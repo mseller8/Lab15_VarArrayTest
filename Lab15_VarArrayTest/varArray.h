@@ -12,8 +12,8 @@ public:
 	int arraySize() const { return size_; } // returns the size of the array
 
 	int check(double number); // returns index of element containg "number" or -1 if none
-	void addNumber(double);    // adds number to the array
-	void removeNumber(double); // deletes the number from the array
+	void addNumber(double number);    // adds number to the array
+	void removeNumber(double number); // deletes the number from the array
 	void output();      // prints the values of the array
 
 	// big three

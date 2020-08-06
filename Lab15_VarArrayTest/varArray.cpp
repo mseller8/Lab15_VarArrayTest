@@ -90,8 +90,7 @@ varArray& varArray::operator=(const varArray& arg){
             array_[i] = arg.array_[i];
         
  }
-    varArray a = varArray(arg);
-    return a;
+    return *this;
 }
 
 varArray::~varArray()

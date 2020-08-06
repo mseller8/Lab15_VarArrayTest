@@ -33,7 +33,7 @@ int main() {
     cout << "a1 after removal of 2.0: "; a1.output();
 
     // uncomment this when you debugged the first part
-    /*
+    
     testfunc(a1); // testing copy constructor
 
     cout << "a1 after testfunc call: ";
@@ -41,7 +41,7 @@ int main() {
                  // this should print properly after testfunc completes
 
     varArray a2, a3;
-
+  
     a3=a2=a1; // testing stackability of the overloaded assignment
     cout << "a3 after stackable assingment: ";
     a3.output();
@@ -49,14 +49,13 @@ int main() {
     a3=a3; // testing protection against self-assingment
     cout << "a3 after self-assignment: ";
     a3.output();
-    */
+    
 }
 
 
-/*
+
 // tests pass-by-value for object of class varArray
 void testfunc(varArray va){ // copy constructor is invoked on "va"
     cout << "parameter va: ";
     va.output();
 } // destructor is invoked when "va" goes out of scope
-*/

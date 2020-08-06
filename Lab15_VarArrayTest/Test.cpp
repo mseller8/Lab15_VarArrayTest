@@ -3,7 +3,7 @@
 // 4/01/2013
 
 #include <iostream>
-#include "vararray.hpp"
+#include "vararray.h"
 
 using std::cout; using std::endl;
 
